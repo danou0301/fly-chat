@@ -14,7 +14,7 @@ namespace ServerConsole
         public static ArrayList clients;
         private const int PORT = 80;
         private const string IP_LOCAL = "127.0.0.1";
-        private const string SAVE_FILES_PATH = "C:\\Users\\dan\\Desktop\\";
+        private static string SAVE_FILES_PATH = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\";
 
         private static void saveFile(TcpClient inClientSocket, string file_name)
         {
