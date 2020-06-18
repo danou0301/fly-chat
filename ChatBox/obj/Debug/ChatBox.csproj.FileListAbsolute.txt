@@ -1,0 +1,10 @@
+C:\Users\dan\Source\Repos\ChatBox\ChatBox\bin\Debug\ChatBox.exe.config
+C:\Users\dan\Source\Repos\ChatBox\ChatBox\bin\Debug\ChatBox.exe
+C:\Users\dan\Source\Repos\ChatBox\ChatBox\bin\Debug\ChatBox.pdb
+C:\Users\dan\Source\Repos\ChatBox\ChatBox\obj\Debug\ChatBox.csprojAssemblyReference.cache
+C:\Users\dan\Source\Repos\ChatBox\ChatBox\obj\Debug\ChatBox.Form1.resources
+C:\Users\dan\Source\Repos\ChatBox\ChatBox\obj\Debug\ChatBox.Properties.Resources.resources
+C:\Users\dan\Source\Repos\ChatBox\ChatBox\obj\Debug\ChatBox.csproj.GenerateResource.cache
+C:\Users\dan\Source\Repos\ChatBox\ChatBox\obj\Debug\ChatBox.csproj.CoreCompileInputs.cache
+C:\Users\dan\Source\Repos\ChatBox\ChatBox\obj\Debug\ChatBox.exe
+C:\Users\dan\Source\Repos\ChatBox\ChatBox\obj\Debug\ChatBox.pdb
