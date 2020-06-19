@@ -2,7 +2,8 @@
 
 My first code on C# :)
 
-Server-Client App
+Server-Client App !
+
 Can chat and send files between clients connected on the server.
 
 Default settings:
