@@ -16,7 +16,7 @@ namespace ChatBox
     public partial class Form1 : Form
     {
 
-        private const int PORT = 80;
+        private const int PORT = 8080;
         private const string IP_LOCAL = "127.0.0.1";
         private static string SAVE_FILES_PATH = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\user\\";
         private bool isDownloadFile = false;
