@@ -11,3 +11,16 @@ C:\Users\dan\Source\Repos\ServerConsole\ServerConsole\obj\Debug\netcoreapp3.1\Se
 C:\Users\dan\Source\Repos\ServerConsole\ServerConsole\obj\Debug\netcoreapp3.1\ServerConsole.dll
 C:\Users\dan\Source\Repos\ServerConsole\ServerConsole\obj\Debug\netcoreapp3.1\ServerConsole.pdb
 C:\Users\dan\Source\Repos\ServerConsole\ServerConsole\obj\Debug\netcoreapp3.1\ServerConsole.genruntimeconfig.cache
+C:\Users\Dan\Downloads\fly-chat-master\fly-chat-master\ServerConsole\bin\Debug\netcoreapp3.1\ServerConsole.exe
+C:\Users\Dan\Downloads\fly-chat-master\fly-chat-master\ServerConsole\bin\Debug\netcoreapp3.1\ServerConsole.deps.json
+C:\Users\Dan\Downloads\fly-chat-master\fly-chat-master\ServerConsole\bin\Debug\netcoreapp3.1\ServerConsole.runtimeconfig.json
+C:\Users\Dan\Downloads\fly-chat-master\fly-chat-master\ServerConsole\bin\Debug\netcoreapp3.1\ServerConsole.runtimeconfig.dev.json
+C:\Users\Dan\Downloads\fly-chat-master\fly-chat-master\ServerConsole\bin\Debug\netcoreapp3.1\ServerConsole.dll
+C:\Users\Dan\Downloads\fly-chat-master\fly-chat-master\ServerConsole\bin\Debug\netcoreapp3.1\ServerConsole.pdb
+C:\Users\Dan\Downloads\fly-chat-master\fly-chat-master\ServerConsole\obj\Debug\netcoreapp3.1\ServerConsole.csprojAssemblyReference.cache
+C:\Users\Dan\Downloads\fly-chat-master\fly-chat-master\ServerConsole\obj\Debug\netcoreapp3.1\ServerConsole.AssemblyInfoInputs.cache
+C:\Users\Dan\Downloads\fly-chat-master\fly-chat-master\ServerConsole\obj\Debug\netcoreapp3.1\ServerConsole.AssemblyInfo.cs
+C:\Users\Dan\Downloads\fly-chat-master\fly-chat-master\ServerConsole\obj\Debug\netcoreapp3.1\ServerConsole.csproj.CoreCompileInputs.cache
+C:\Users\Dan\Downloads\fly-chat-master\fly-chat-master\ServerConsole\obj\Debug\netcoreapp3.1\ServerConsole.dll
+C:\Users\Dan\Downloads\fly-chat-master\fly-chat-master\ServerConsole\obj\Debug\netcoreapp3.1\ServerConsole.pdb
+C:\Users\Dan\Downloads\fly-chat-master\fly-chat-master\ServerConsole\obj\Debug\netcoreapp3.1\ServerConsole.genruntimeconfig.cache

@@ -89,6 +89,7 @@ namespace ServerConsole
             } catch (Exception ex)
             {
                 Console.WriteLine("Error: " + ex);
+                // todo send error to the user to inform that have an error
             }
             
         }

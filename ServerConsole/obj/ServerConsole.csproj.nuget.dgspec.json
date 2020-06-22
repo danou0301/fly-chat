@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dan\\Source\\Repos\\ServerConsole\\ServerConsole\\ServerConsole.csproj": {}
+    "C:\\Users\\Dan\\Downloads\\fly-chat-master\\fly-chat-master\\ServerConsole\\ServerConsole.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dan\\Source\\Repos\\ServerConsole\\ServerConsole\\ServerConsole.csproj": {
+    "C:\\Users\\Dan\\Downloads\\fly-chat-master\\fly-chat-master\\ServerConsole\\ServerConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dan\\Source\\Repos\\ServerConsole\\ServerConsole\\ServerConsole.csproj",
+        "projectUniqueName": "C:\\Users\\Dan\\Downloads\\fly-chat-master\\fly-chat-master\\ServerConsole\\ServerConsole.csproj",
         "projectName": "ServerConsole",
-        "projectPath": "C:\\Users\\dan\\Source\\Repos\\ServerConsole\\ServerConsole\\ServerConsole.csproj",
-        "packagesPath": "C:\\Users\\dan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dan\\Source\\Repos\\ServerConsole\\ServerConsole\\obj\\",
+        "projectPath": "C:\\Users\\Dan\\Downloads\\fly-chat-master\\fly-chat-master\\ServerConsole\\ServerConsole.csproj",
+        "packagesPath": "C:\\Users\\Dan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dan\\Downloads\\fly-chat-master\\fly-chat-master\\ServerConsole\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

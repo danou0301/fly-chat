@@ -53,6 +53,16 @@ namespace ChatBox
 
         }
 
+        public void AppendTextBox(string value)
+        {
+            if (InvokeRequired)
+            {
+                this.Invoke(new Action<string>(AppendTextBox), new object[] { value });
+                return;
+            }
+            listFiles.Items.Add(value);
+        }
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -89,7 +99,9 @@ namespace ChatBox
                         if (getdata.IndexOf("$-$: ") == 0) // get file name
                         {
                             string fileName = getdata.Substring(5);
-                            listFiles.Items.Add("> " + fileName);
+                            Console.WriteLine(fileName.Length);
+                            //listFiles.Items.Add("> " + fileName);
+                            AppendTextBox("> " + fileName);
                         }
                         else if (getdata.IndexOf("@-@: ") != 0) // get message, check that isn't a file message
                         {
@@ -156,35 +168,40 @@ namespace ChatBox
             byte[] length = new byte[4];
             int bufferSize = 1024;
             int allBytesRead = 0;
-
-            int bytesRead = fileStream.Read(length, 0, 4);
-            int dataLength = BitConverter.ToInt32(length, 0);
-
-            // Read the data
-            int bytesLeft = dataLength;
-            byte[] data = new byte[dataLength];
-
-            while (bytesLeft > 0)
-            {
-                //Console.WriteLine("bytes download: " + Convert.ToString(bytesLeft));
-                int nextPacketSize = (bytesLeft > bufferSize) ? bufferSize : bytesLeft;
-
-                bytesRead = fileStream.Read(data, allBytesRead, nextPacketSize);
-                allBytesRead += bytesRead;
-                bytesLeft -= bytesRead;
-
-            }
-            // Save file to the server
             try
             {
-                string path = SAVE_FILES_PATH + file_name;
-                File.WriteAllBytes(path, data);
-                Console.WriteLine("Finish !" + " Save in " + SAVE_FILES_PATH + file_name);
+                int bytesRead = fileStream.Read(length, 0, 4);
+                int dataLength = BitConverter.ToInt32(length, 0);
 
-            }
-            catch (Exception ex)
+                // Read the data
+                int bytesLeft = dataLength;
+                byte[] data = new byte[dataLength];
+
+                while (bytesLeft > 0)
+                {
+                    //Console.WriteLine("bytes download: " + Convert.ToString(bytesLeft));
+                    int nextPacketSize = (bytesLeft > bufferSize) ? bufferSize : bytesLeft;
+
+                    bytesRead = fileStream.Read(data, allBytesRead, nextPacketSize);
+                    allBytesRead += bytesRead;
+                    bytesLeft -= bytesRead;
+
+                }
+                // Save file to the server
+                try
+                {
+                    string path = SAVE_FILES_PATH + file_name;
+                    File.WriteAllBytes(path, data);
+                    Console.WriteLine("Finish !" + " Save in " + SAVE_FILES_PATH + file_name);
+
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("error save file: " + ex);
+                }
+            } catch (Exception ex)
             {
-                Console.WriteLine("error save file: " + ex);
+                Console.WriteLine("error read file: " + ex);
             }
 
         }

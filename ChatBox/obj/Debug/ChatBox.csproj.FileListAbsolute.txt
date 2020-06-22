@@ -8,3 +8,13 @@ C:\Users\dan\Source\Repos\ChatBox\ChatBox\obj\Debug\ChatBox.csproj.GenerateResou
 C:\Users\dan\Source\Repos\ChatBox\ChatBox\obj\Debug\ChatBox.csproj.CoreCompileInputs.cache
 C:\Users\dan\Source\Repos\ChatBox\ChatBox\obj\Debug\ChatBox.exe
 C:\Users\dan\Source\Repos\ChatBox\ChatBox\obj\Debug\ChatBox.pdb
+C:\Users\Dan\Downloads\fly-chat-master\fly-chat-master\ChatBox\bin\Debug\ChatBox.exe.config
+C:\Users\Dan\Downloads\fly-chat-master\fly-chat-master\ChatBox\bin\Debug\ChatBox.exe
+C:\Users\Dan\Downloads\fly-chat-master\fly-chat-master\ChatBox\bin\Debug\ChatBox.pdb
+C:\Users\Dan\Downloads\fly-chat-master\fly-chat-master\ChatBox\obj\Debug\ChatBox.csprojAssemblyReference.cache
+C:\Users\Dan\Downloads\fly-chat-master\fly-chat-master\ChatBox\obj\Debug\ChatBox.Form1.resources
+C:\Users\Dan\Downloads\fly-chat-master\fly-chat-master\ChatBox\obj\Debug\ChatBox.Properties.Resources.resources
+C:\Users\Dan\Downloads\fly-chat-master\fly-chat-master\ChatBox\obj\Debug\ChatBox.csproj.GenerateResource.cache
+C:\Users\Dan\Downloads\fly-chat-master\fly-chat-master\ChatBox\obj\Debug\ChatBox.csproj.CoreCompileInputs.cache
+C:\Users\Dan\Downloads\fly-chat-master\fly-chat-master\ChatBox\obj\Debug\ChatBox.exe
+C:\Users\Dan\Downloads\fly-chat-master\fly-chat-master\ChatBox\obj\Debug\ChatBox.pdb
