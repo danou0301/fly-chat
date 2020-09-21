@@ -1,4 +1,4 @@
-# fly-chat
+# Fly Chat
 
 My first code on C# :)
 
