@@ -7,6 +7,8 @@ Server-Client App !
 A Chat App, you can chat and send files between clients, connected on the server.
 
 
+
+
 Default settings:
 - Server on local ip: 127.0.0.1
 - Server save files on its desktop
